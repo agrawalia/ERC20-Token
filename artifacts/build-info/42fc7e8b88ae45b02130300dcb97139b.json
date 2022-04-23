@@ -27,9 +27,7 @@
             "evm.methodIdentifiers",
             "metadata"
           ],
-          "": [
-            "ast"
-          ]
+          "": ["ast"]
         }
       }
     }
@@ -4946,12 +4944,8 @@
         "ast": {
           "absolutePath": "contracts/ERC20.sol",
           "exportedSymbols": {
-            "ERC20": [
-              223
-            ],
-            "IERC20": [
-              292
-            ]
+            "ERC20": [223],
+            "IERC20": [292]
           },
           "id": 224,
           "license": "MIT",
@@ -4970,12 +4964,7 @@
             },
             {
               "id": 2,
-              "literals": [
-                "solidity",
-                "^",
-                "0.8",
-                ".0"
-              ],
+              "literals": ["solidity", "^", "0.8", ".0"],
               "nodeType": "PragmaDirective",
               "src": "57:23:0"
             },
@@ -4995,16 +4984,11 @@
                   "src": "104:6:0"
                 }
               ],
-              "contractDependencies": [
-                292
-              ],
+              "contractDependencies": [292],
               "contractKind": "contract",
               "fullyImplemented": true,
               "id": 223,
-              "linearizedBaseContracts": [
-                223,
-                292
-              ],
+              "linearizedBaseContracts": [223, 292],
               "name": "ERC20",
               "nodeType": "ContractDefinition",
               "nodes": [
@@ -5276,9 +5260,7 @@
                   "visibility": "public"
                 },
                 {
-                  "baseFunctions": [
-                    230
-                  ],
+                  "baseFunctions": [230],
                   "body": {
                     "id": 33,
                     "nodeType": "Block",
@@ -5363,9 +5345,7 @@
                   "visibility": "external"
                 },
                 {
-                  "baseFunctions": [
-                    237
-                  ],
+                  "baseFunctions": [237],
                   "body": {
                     "id": 46,
                     "nodeType": "Block",
@@ -5503,9 +5483,7 @@
                   "visibility": "external"
                 },
                 {
-                  "baseFunctions": [
-                    246
-                  ],
+                  "baseFunctions": [246],
                   "body": {
                     "id": 79,
                     "nodeType": "Block",
@@ -5897,9 +5875,7 @@
                   "visibility": "external"
                 },
                 {
-                  "baseFunctions": [
-                    255
-                  ],
+                  "baseFunctions": [255],
                   "body": {
                     "id": 96,
                     "nodeType": "Block",
@@ -6089,9 +6065,7 @@
                   "visibility": "external"
                 },
                 {
-                  "baseFunctions": [
-                    264
-                  ],
+                  "baseFunctions": [264],
                   "body": {
                     "id": 125,
                     "nodeType": "Block",
@@ -6440,9 +6414,7 @@
                   "visibility": "external"
                 },
                 {
-                  "baseFunctions": [
-                    275
-                  ],
+                  "baseFunctions": [275],
                   "body": {
                     "id": 167,
                     "nodeType": "Block",
@@ -7616,9 +7588,7 @@
         "ast": {
           "absolutePath": "contracts/IERC20.sol",
           "exportedSymbols": {
-            "IERC20": [
-              292
-            ]
+            "IERC20": [292]
           },
           "id": 293,
           "license": "MIT",
@@ -7626,12 +7596,7 @@
           "nodes": [
             {
               "id": 225,
-              "literals": [
-                "solidity",
-                "^",
-                "0.8",
-                ".0"
-              ],
+              "literals": ["solidity", "^", "0.8", ".0"],
               "nodeType": "PragmaDirective",
               "src": "33:24:1"
             },
@@ -7642,9 +7607,7 @@
               "contractKind": "interface",
               "fullyImplemented": false,
               "id": 292,
-              "linearizedBaseContracts": [
-                292
-              ],
+              "linearizedBaseContracts": [292],
               "name": "IERC20",
               "nodeType": "ContractDefinition",
               "nodes": [

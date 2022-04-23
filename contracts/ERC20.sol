@@ -8,9 +8,14 @@ contract ERC20 is IERC20 {
     uint256 public _totalSupply;
     mapping(address => uint) public _balanceOf;
     mapping(address => mapping(address => uint)) public _allowance;
-    string public name= "Test";
-    string public symbol = "TEST";
-    uint8 public decimals = 18;
+    string public _name;
+    string public _symbol;
+    uint8 public decimals;
+
+     constructor(string memory name, string memory symbol) {
+        _name = name;
+        _symbol = symbol;
+    }
 
     function totalSupply() external view override returns (uint256){
         return _totalSupply;
