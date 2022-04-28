@@ -21,22 +21,14 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
-      "imports": [
-        "./IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
+      "imports": ["./IERC20.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["ERC20"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\contracts\\IERC20.sol": {
       "lastModificationDate": 1650680603884,
@@ -58,24 +50,18 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC20"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\contracts\\MyToken.sol": {
-      "lastModificationDate": 1650690343273,
-      "contentHash": "07243c49cff13137580e45ed0f22ae8a",
+      "lastModificationDate": 1650709708639,
+      "contentHash": "b6f3a842ebe503af460f79553534bc7a",
       "sourceName": "contracts/MyToken.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -93,22 +79,14 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GLDToken"
-      ]
+      "imports": ["@openzeppelin/contracts/token/ERC20/ERC20.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["MyToken"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
       "lastModificationDate": 1650690213667,
@@ -130,9 +108,7 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
@@ -142,12 +118,8 @@
         "./extensions/IERC20Metadata.sol",
         "../../utils/Context.sol"
       ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["ERC20"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
       "lastModificationDate": 1650690213883,
@@ -169,20 +141,14 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC20"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
       "lastModificationDate": 1650690213886,
@@ -204,22 +170,14 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
-      "imports": [
-        "../IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Metadata"
-      ]
+      "imports": ["../IERC20.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC20Metadata"]
     },
     "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1650690213571,
@@ -241,20 +199,43 @@
                 "evm.methodIdentifiers",
                 "metadata"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Context"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["Context"]
+    },
+    "E:\\iNTERNSHIP\\Solulab\\Ethereum\\ERC20\\ERC20-Token\\contracts\\CrowdFund.sol": {
+      "lastModificationDate": 1651114861513,
+      "contentHash": "b2a04713e5c135eb44e7f2b31187b843",
+      "sourceName": "contracts/CrowdFund.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": ["ast"]
+            }
+          }
+        }
+      },
+      "imports": ["./IERC20.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["CrowdFund"]
     }
   }
 }
